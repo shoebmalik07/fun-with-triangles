@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightpink;
+}
+/* navbar */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* gap: 700px; */
+    /* border: 2px solid red; */
+    /* height: 70px; */
+    align-items: center;
+    /* flex-wrap: wrap-reverse; */
+    position: sticky;
+    margin: 0px 0px 20px 0px; 
+    font-family: 'trispace',sans-serif;
+    font-weight: bold;
+    
+}
+.heading a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-class ul{
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px;s */
+    justify-content: center;
+    margin: 0px 0px 0px 500px; 
+
+}
+.navbar-class ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 24px 0px 25px 32px;
+}
+.navbar-class ul li a{
+    text-decoration: none;
+    color: black;
+}
+main h1{
+    text-align: center;
+    margin: 50px;
+    font-family: 'trispace',sans-serif;
+
+}
+.subMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+label{
+    font-size: 25px;
+}
+input {
+    width: 240px;
+    height: 35px;
+}
+#btn-submit {
+    width: 160px;
+    height: 46px;
+    margin-left: 52px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: darkred;
+    font-size: 16px;
+}
+#outputDiv{
+    font-size: 30px;
+   
+}
+
+
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+
+
+}
+footer a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+

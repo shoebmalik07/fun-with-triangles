@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightpink;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* gap: 700px; */
+    /* border: 2px solid red; */
+    /* height: 70px; */
+    align-items: center;
+    /* flex-wrap: wrap-reverse; */
+    position: sticky;
+    margin: 0px 0px 20px 0px;
+    font-family: 'trispace',sans-serif;
+    font-weight: bold; 
+    
+}
+.heading a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-class ul{
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px;s */
+    justify-content: center;
+    margin: 0px 0px 0px 500px; 
+
+}
+.navbar-class ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 24px 0px 25px 32px;
+}
+.navbar-class ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* main */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main h2{
+    margin: 50px;
+    font-size: 30px;
+    font-family: 'trispace',sans-serif;
+}
+.input label{
+    font-size: 20px;
+}
+.input input {
+    width: 300px;
+    height: 30px;
+}
+#btn-check {
+    margin: 38px 120px 20px 47px;
+    width: 100px;
+    height: 33px;
+    border: none;
+    border-radius: 6px;
+
+}
+.output{
+    font-size: 32px;
+}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+
+
+}
+footer a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
